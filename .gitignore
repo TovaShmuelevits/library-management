@@ -1,16 +1,7 @@
-# Compiled class files
+# ========================
+# Java & JVM
+# ========================
 *.class
-
-# Log files
-*.log
-
-# BlueJ files
-*.ctxt
-
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
-
-# Package Files
 *.jar
 *.war
 *.nar
@@ -18,26 +9,31 @@
 *.zip
 *.tar.gz
 *.rar
-
-# Virtual machine crash logs
+*.log
 hs_err_pid*
 replay_pid*
 
-# Maven
+# ========================
+# Build directories
+# ========================
 target/
-
-# Gradle
-.gradle/
 build/
+out/
+.gradle/
 
+# ========================
 # IntelliJ IDEA
+# ========================
 .idea/
 *.iml
-out/
 
-# VS Code (אם מישהו יפתח בזה)
+# ========================
+# IDEs & Editors
+# ========================
 .vscode/
 
+# ========================
 # OS generated files
+# ========================
 .DS_Store
 Thumbs.db
